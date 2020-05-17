@@ -4,18 +4,17 @@ This is a Tensor library (ndarray).
 
 ## Import
 
+```ts
 import * as T from "https://deno.land/x/tensor/mod.ts";
-
+```
 
 ## Usage
 
 ```ts
-import * as T from "https://deno.land/x/tensor/mod.ts";
+import * as T from "https://ccc-js.github.io/tensor/mod.ts";
 
-{
-  let a = [1,2,3], b = [1,1,1]
-  console.log('add(a,b) = ', T.add(a,b));
-}
+let a = [1,2,3], b = [1,1,1]
+console.log('add(a,b) = ', T.add(a,b));
 
 ```
 

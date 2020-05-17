@@ -1,6 +1,8 @@
+// import { assert } from "https://deno.land/std/testing/asserts.ts";
+import { expect } from "https://deno.land/x/expect/mod.ts";
 import * as T from "./mod.ts";
 
-{
-  let a = [1,2,3], b = [1,1,1]
-  console.log('add(a,b) = ', T.add(a,b));
-}
+Deno.test('add', () => {
+  let a = [1,2,3], b = [1,1,1];
+  expect(T.add(a,b)).toEqual([2,3,4]);
+})
