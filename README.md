@@ -20,4 +20,4 @@ console.log('add(a,b) = ', T.add(a,b));
 
 ## Issues
 
-For any bug reports or feature requests, please create an [issue on GitHub](issues).
+For any bug reports or feature requests, please create an [issue on GitHub](https://github.com/ccc-js/tensor/issues).
