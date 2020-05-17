@@ -1,6 +1,6 @@
 # Tensor
 
-This is a Tensor library (ndarray).
+This is a Tensor library (ndarray) for deno.js
 
 ## Import
 
