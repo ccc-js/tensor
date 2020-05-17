@@ -5,7 +5,7 @@ This is a Tensor library (ndarray) for deno.js
 ## Import
 
 ```ts
-import * as T from "https://deno.land/x/tensor/mod.ts";
+import * as T from "https://ccc-js.github.io/tensor/mod.ts";
 ```
 
 ## Usage
